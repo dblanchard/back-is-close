@@ -1,10 +1,11 @@
+
 // manifest.json
 {
   "manifest_version": 3,
   "name": "Back Arrow Close Tab",
   "version": "1.0",
   "description": "Closes the tab if there is no previous page when using the back button or Alt+Left.",
-  "permissions": ["tabs", "activeTab"],
+  "permissions": ["tabs", "activeTab", "webNavigation"],
   "background": {
     "scripts": ["background.js"]
   },
