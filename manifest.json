@@ -6,8 +6,7 @@
   "description": "Closes the tab if there is no previous page when using the back button or Alt+Left.",
   "permissions": ["scripting", "tabs"],
   "background": {
-    "type": "module",
-    "service_worker": "background.js"
+    "scripts": ["background.js"]
   },
   "commands": {
     "check-back-and-close": {
